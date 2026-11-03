@@ -1815,3 +1815,121 @@ footer p{
     border-radius: 12px;
     display: block;
 }
+
+/* ==============================
+   ZWANIX CONTACT SUCCESS PAGE
+============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SUCCESS CARD */
+
+.success-container {
+    background: #FFFFFF;
+    width: 100%;
+    max-width: 650px;
+    padding: 55px 35px;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: 0 10px 40px rgba(15, 23, 42, 0.08);
+}
+
+/* SUCCESS ICON */
+
+.success-icon {
+    width: 100px;
+    height: 100px;
+    background: #DCFCE7;
+    color: #16A34A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 25px;
+    font-size: 50px;
+}
+
+/* TEXT */
+
+.success-label {
+    color: #06B6D4;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.success-container h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+    color: #0F172A;
+}
+
+.success-container h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #0F172A;
+}
+
+.success-message {
+    color: #64748B;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+/* HOME BUTTON */
+
+.home-button {
+    display: inline-block;
+    background: #06B6D4;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.home-button:hover {
+    background: #0891B2;
+    transform: translateY(-2px);
+}
+
+.home-button i {
+    margin-right: 8px;
+}
+
+/* FOOTER */
+
+.footer-text {
+    color: #94A3B8;
+    font-size: 12px;
+    margin-top: 35px;
+    line-height: 1.8;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 600px) {
+
+    .success-container {
+        padding: 40px 20px;
+    }
+
+    .success-container h1 {
+        font-size: 32px;
+    }
+
+    .success-container h2 {
+        font-size: 19px;
+    }
+
+    .success-message {
+        font-size: 14px;
+    }
+}
